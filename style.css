@@ -1,0 +1,182 @@
+body {
+  /*background-color: #a3d2ca;*/
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/*Estar pendiente del tamaño de letras en el padre(body) y como afecta los h1 y h2 clase ccs sizing*/
+h1 {
+  /*un font size de 100% se usa para que la letra sea dinamica, representa unos 60px
+    para tener 90px hago (90px/16)100%=562.5%
+    la diferencia entre px y % es que los px son fijos el % es variable segun la configuracion del navegador
+    tambien tengo la unidad em donde 1em=16px=100%
+    90px=5.625em
+    adenas tengo la unidad rem que ignora el tamaño de letra especificado en el padre
+    se recomienda usar rem(roof em)*/
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  color: #c7cfb7;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 20px 0 5px 0 ;
+  text-align: center;
+
+}
+
+  .presentation{
+    color: #40514E;
+  }
+
+.programer {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  width: 600px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 180px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.jose {
+  margin-top: 50px;
+  width: 200px;
+  padding-top:20px
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+
+.gamer {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+
+.study {
+  width: 25%;
+  float: right;
+    margin-left: 30px
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+
+.contac-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn{
+  background: #11CDD4;
+ background-image: -webkit-linear-gradient(top, #11CDD4, #1199B9);
+ background-image: -moz-linear-gradient(top, #11CDD4, #1199B9);
+ background-image: -ms-linear-gradient(top, #11CDD4, #1199B9);
+ background-image: -o-linear-gradient(top, #11CDD4, #1199B9);
+ background-image: -webkit-gradient(to bottom, #11CDD4, #1199B9);
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+ color: #FFFFFF;
+ font-family: 'Montserrat', sans-serif
+ font-size: 20px;
+ font-weight: 200;
+ padding: 20px;
+ text-shadow: 1px 1px 20px #000000;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ text-align: center;
+}
+
+.btn:hover {
+ border: solid #FFFFFF 1px;
+ background: #30E3CB;
+ background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+ background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+ text-decoration: none;
+}
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin: 50px 0 0 0;
+    padding: 20px 0 5px;
+  }
